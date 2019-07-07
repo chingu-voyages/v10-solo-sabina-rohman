@@ -1,0 +1,5 @@
+WEEK 1 : 01/07/19 - 07/07/19
+- Decided on the landing page to build.
+- Built the draft HTML and CSS.
+- Added navbar, background image.
+- Added a bouncy arrow (which was quite tricky).
