@@ -1,3 +1,12 @@
+#red{
+	font-family:Literata;
+	 
+}
+#brand{
+	font-weight:400px;
+	font-size:20px;
+}
+
 #mamu{
 	color:white;
 }
@@ -6,9 +15,7 @@
 	color:white;
 }
 
-body{
-	font-family:"Nunito", sans-serif;
-}
+
 
 #picture{
 	width: 100%;
@@ -31,7 +38,6 @@ body{
   transform: translate(-50%, -50%);
   font-size: 30px;
   font-weight: normal;
-  margin-bottom: 5px;
 }
 
 .blob{
@@ -40,28 +46,34 @@ body{
   	color: white;
 }
 
-
-.arrow
-{
-  position: relative;
-  bottom: -2rem;
-  left: 50%;
-  margin-left:-20px;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  bottom: 10px;
-  left: 900px;
-
-  /**
-   * Dark Arrow Down
-   */
-  background-image: url("https://www.iconsdb.com/icons/preview/white/arrow-188-xxl.png");
-  background-size: contain;
+#meow{
+	margin-bottom: 30px;
 }
+.pict{
+	position:relative;
+	top:0;
+	left:0;
+}
+.arrow{
+		  bottom: -2rem;
+		  left: 50%;
+		  margin-left:-20px;
+		  width: 40px;
+		  height: 40px;
+		  position: absolute;
+		  bottom: 5px;
+		  left: 850px;
+		  
+
+		  /**
+		   * Dark Arrow Down
+		   */
+		  background-image: url("https://www.iconsdb.com/icons/preview/white/arrow-188-xxl.png");
+		  background-size: contain;
+		}
 
 .bounce {
-  animation: bounce 2s infinite;
+  	animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -74,4 +86,9 @@ body{
   60% {
     transform: translateY(-15px);
   }
+}
+
+.kaala{
+	font-size: 400px;
+	font-weight: bold;
 }
